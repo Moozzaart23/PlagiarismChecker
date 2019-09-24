@@ -1,5 +1,7 @@
+
 # Plagiarism Checker
-This is mainly designed to go through all the files in the corpus present and check the similarity of the input document based on the documents present in the corpus. Firstly vector space model is used but then Fingerprint Analysis is also made into it.
+**A Plagiarism Checker for text documents**
+This is mainly designed to go through all the files in the corpus present and check the similarity of the input document based on the documents present in the corpus. Firstly vector space model built with the help of tf-idf and then KL Divergence is used to find the similarity of the query document with other documents present in the corpus
 
 ## Getting Started
 
@@ -8,12 +10,28 @@ This is mainly designed to go through all the files in the corpus present and ch
  - Git
  
  ## Installation
- - Clone the repository in your preferred directory using the following command.
-> git clone https://www.github.com/19981999ab/Plagarism_Checker.git
+ - Clone the repository in your preferred directory using the following command
+```
+	git clone https://www.github.com/19981999ab/Plagarism_Checker.git
+```
  - Change your working directory to Plagarism_Checker
- >cd Plagarism_Checker
- - Launch Jupyter Notebook and Run the code in it.
+```
+	cd Plagarism_Checker 
+```
+  - Create a python terminal to install **nltk** dependencies
+```
+	>>> import nltk
+	>>> nltk.download('pukt')
+	>>> nltk.download('stopwords')
+	>>> exit()
+```
+- Copy the documents which you want to check for along with the query document in the same directory
+- Run the following command to check for query
+```
+	python search.py 
+```
  
  ## Team
  - [Anish Dey](https://github.com/Moozzaart23)
  - [Anurag Behera](https://github.com/19981999ab)
+ - [Shuvam Banerjee](https://github.com/player1798)
