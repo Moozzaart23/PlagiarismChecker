@@ -12,7 +12,7 @@ This is mainly designed to go through all the files in the corpus present and ch
  ## Installation
  - Clone the repository in your preferred directory using the following command
 ```
-	git clone https://www.github.com/19981999ab/Plagarism_Checker.git
+	git clone https://github.com/Moozzaart23/PlagiarismChecker.git
 ```
  - Change your working directory to Plagarism_Checker
 ```
