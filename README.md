@@ -28,7 +28,7 @@ This is mainly designed to go through all the files in the corpus present and ch
 - Copy the documents which you want to check for along with the query document in the same directory
 - Run the following command to check for query
 ```
-	python search.py 
+	python check.py 
 ```
  
  ## Team
